@@ -1,0 +1,14 @@
+:root { --paper:#F4EEE3; --card:#FFFCF5; --ink:#1A1917; --soft:#6B655C; --tomato:#FF4B2B; --sun:#FFC933; }
+@media (prefers-color-scheme: dark) { :root { --paper:#161412; --card:#221F1B; --ink:#F3EEE6; --soft:#A39C91; } }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--paper); color:var(--ink); font: 17px/1.6 -apple-system, system-ui, sans-serif; }
+main { max-width: 680px; margin: 0 auto; padding: 48px 20px 80px; }
+.mark { font: 900 26px/1 "New York", Georgia, serif; text-decoration:none; color:var(--ink); }
+.mark span { color: var(--tomato); }
+h1 { font: 900 44px/1.05 "New York", Georgia, serif; margin: 36px 0 8px; }
+h2 { font: 800 22px/1.2 "New York", Georgia, serif; margin: 32px 0 6px; }
+.lede { color: var(--soft); font-style: italic; font-family: "New York", Georgia, serif; font-size: 19px; }
+.card { background: var(--card); border: 2px solid var(--ink); border-radius: 18px; box-shadow: 5px 5px 0 var(--ink); padding: 18px 20px; margin: 24px 0; }
+.stamp { display:inline-block; background: var(--sun); color:#1A1917; border:2px solid #1A1917; border-radius:8px; box-shadow:3px 3px 0 #1A1917; padding:2px 10px; font: 900 14px "New York", Georgia, serif; letter-spacing:1px; transform: rotate(-3deg); }
+a { color: var(--ink); }
+footer { margin-top: 48px; color: var(--soft); font-size: 14px; }
